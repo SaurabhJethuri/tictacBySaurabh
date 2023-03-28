@@ -75,7 +75,6 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="200dp"
         android:id="@+id/btn10"
-        android:text="Reset"
         android:onClick="check"
         android:textColor="@color/cardview_dark_background"
 

@@ -46,7 +46,7 @@ public class MainActivity extends AppCompatActivity {
             flag=0;
         }
             b10=btn10.getText().toString();
-        if(b10.contains("Reset")){
+        if(b10.contentEquals("O") || b10.contentEquals("X")){
                 newGame();
         }
 
